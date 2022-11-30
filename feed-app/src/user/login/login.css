@@ -1,0 +1,45 @@
+.login-container {
+  position: relative;
+  max-width: 420px;
+  margin-left: auto;
+  margin-top: 9pc;
+  margin-right: 9pc;
+  width: 497px;
+  height: 363px;
+  border: 1px solid #000000;
+  background-color: rgba(168, 195, 248, 0.81);
+  border-radius: 47px;
+  box-shadow: 28px 19px 19px rgba(0, 0, 0, 0.46);
+
+}
+
+
+.signup-link-container a {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #003569;
+}
+
+.input {
+margin-left: 25px;
+box-sizing: border-box;
+position: relative;
+width: 247px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+.welcome {
+width: 349px;
+height: 81px;
+
+font-family: 'Inter'; 
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-transform: uppercase;
+color: #FFFFFF;
+}

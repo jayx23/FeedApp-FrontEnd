@@ -1,0 +1,68 @@
+.signup-container {
+    position:relative;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0E0D0D;
+    box-shadow: 28px 19px 19px rgba(0, 0, 0, 0.46);
+    border-radius: 47px;
+  }
+
+  .inputbox {
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    width: 269px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50px;
+  }
+  
+  .login-link-container {
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #FFCB46;
+    background-color: #FFCB46;
+    color: #999;
+  }
+  
+  .login-link-container a {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #0a2a4a;
+  }
+  
+  .signup-form-button {
+    width: 100%;
+    position: relative;
+    width: 138px;
+    height: 47px;
+    background: #014D28;
+    border-radius: 10px;
+  }
+  
+  .ant-form-item-with-help {
+    margin-bottom: 100px;
+
+  }
+  
+  .logo-container {
+    font-family: 'DM Serif Display';
+    font-style: bold;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 77px;
+    text-transform: uppercase;
+  }
+  
+  .signup-container img {
+    width: 200px;
+  }

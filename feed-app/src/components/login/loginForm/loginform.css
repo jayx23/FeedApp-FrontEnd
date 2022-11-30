@@ -1,0 +1,19 @@
+.login-form-button {
+width: 367px;
+height: 30px;
+background: #BDF9F5;
+border: 1px solid #000000;
+border-radius: 47px;
+}
+  
+  .ant-form-item-explain {
+    margin-bottom: 20px;
+  }
+
+  .signup-link-container {
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(168, 195, 248, 0.81);
+    border: none;
+  }
+  
