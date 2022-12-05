@@ -1,6 +1,5 @@
 export const API_BASE_URL = "http://localhost:8080";
 export const ACCESS_TOKEN = "accessToken";
-
 export const NAME_MIN_LENGTH = 3;
 export const NAME_MAX_LENGTH = 40;
 

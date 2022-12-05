@@ -27,7 +27,7 @@ const request = options => {
   );
 };
 
-export const login = (loginRequest) => {
+export const login = loginRequest => {
   return request({
     url: API_BASE_URL + "/auth/signin",
     method: "POST",

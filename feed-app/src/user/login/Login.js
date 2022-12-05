@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "./login.css";
 import { useNavigate } from "react-router-dom";
 import { Row, Col } from "antd";
-
-import LoginForm from "../../components/login/loginForm/LoginForm";
+import { Link } from "react-router-dom";
+import LoginForm from "../../components/loginForm/LoginForm";
 
 const Login = ({ currentUser, isAuthenticated }) => {
   let navigate = useNavigate();
@@ -20,7 +20,7 @@ const Login = ({ currentUser, isAuthenticated }) => {
         <Row type="flex" justify="center">
           <Col pan={24}>
             <div className="logo-container">
-              <span className="welcome">WElCOME</span>
+              <span>Feed App - Login</span>
             </div>
           </Col>
         </Row>
@@ -30,7 +30,9 @@ const Login = ({ currentUser, isAuthenticated }) => {
           </Col>
         </Row>
       </div>
-
+      <div className="signup-link-container">
+        Don't have an account? <Link to="/signup">Signup</Link>
+      </div>
     </React.Fragment>
   );
 };
